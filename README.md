@@ -1,6 +1,7 @@
 # Example Use Lottie Library in Flutter
 
 *Library Lottie:* https://pub.dev/packages/flutter_lottie
+
 *Download Lottie Json:* https://lottiefiles.com/
 
 ![Library Lottie](https://github.com/huubao2309/example_lottie_flutter/blob/master/images/lottie_full.gif)
