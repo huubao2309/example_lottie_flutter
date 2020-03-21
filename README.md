@@ -19,14 +19,14 @@ dependencies:
 ![Load Lottie_URL](https://github.com/huubao2309/example_lottie_flutter/blob/master/images/lottie_part_1.gif)
 
 ```dart
-                child: LottieView.fromURL(
-                  url:
-                      "https://assets3.lottiefiles.com/datafiles/e8edab32a32a8a9402f9cd63b457993c/Plane.json",
-                  autoPlay: true,
-                  loop: true,
-                  reverse: true,
-                  onViewCreated: onViewCreated,
-                ),
+  child: LottieView.fromURL(
+    url:
+        "https://assets3.lottiefiles.com/datafiles/e8edab32a32a8a9402f9cd63b457993c/Plane.json",
+    autoPlay: true,
+    loop: true,
+    reverse: true,
+    onViewCreated: onViewCreated,
+  ),
 ```
 
 + **Create Controler for handle Play, Stop, Pause, Resume:**
@@ -47,25 +47,25 @@ dependencies:
   }
   
   // Use Play, Stop, Pause, Resume
-    controller.play(); // Play
-    controller.stop(); // Stop
-    controller.pause(); // Pause
-    controller.resume(); // Resume
+  controller.play(); // Play
+  controller.stop(); // Stop
+  controller.pause(); // Pause
+  controller.resume(); // Resume
   
 ```
 
-### 2. Load Lottie Json File with File Json:
+### 3. Load Lottie Json File with File Json:
 
 ![Load Lottie_File](https://github.com/huubao2309/example_lottie_flutter/blob/master/images/lottie_part_2.gif)
 
 ```dart
-                  child: LottieView.fromFile(
-                    filePath: "lottie_json/newAnimation.json",
-                    autoPlay: true,
-                    loop: true,
-                    reverse: true,
-                    onViewCreated: onViewCreatedFile,
-                  ),
+   child: LottieView.fromFile(
+     filePath: "lottie_json/newAnimation.json",
+     autoPlay: true,
+     loop: true,
+     reverse: true,
+     onViewCreated: onViewCreatedFile,
+   ),
 ```
 
 + **Change Color of Images:**
